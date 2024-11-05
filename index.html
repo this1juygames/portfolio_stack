@@ -4,55 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=supreme@400&f[]=chubbo@700&f[]=sentient@300&f[]=oswald@700&display=swap" rel="stylesheet">
+
     <title>Portfolio Project</title>
 </head>
 <body>
-    <header>
+
+<header>
+    <div class="nav-container">
+        <img src="bakery_imgs/imgs/logo.png" alt="Blissful Bites Bakery logo" class="logo"> 
         <nav>
-            <a href="index.html">
-                <img src="" alt="Blissful Bites Bakery logo" class="logo"> 
-            </a>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="hvr-grow">Home</a></li>
+                <li><a href="#menu" class="hvr-grow">Menu</a></li>
+                <li><a href="#contact" class="hvr-grow">Contact</a></li>
+                <li><a href="#gallery" class="hvr-grow">Gallery</a></li>
             </ul>
         </nav>
-    </header>
-    <main>
-        <section class="hero" id="home">
-            <h1>Welcome to Sweet Treats Bakery</h1>
+    </div>
+</header>
+<main>
+    <section class="hero" id="home">
+        <div class="title">
+            <h1>Welcome to Blissful Bites Bakery</h1>
             <p>Indulge in the finest baked goods, crafted with love and the freshest ingredients. At Sweet Treats Bakery, we believe in delivering not just desserts, but delightful experiences.</p>
-            <img src="#" alt="A picture of a delicious pastry.">
-        </section>
-        <section class="cards" id="menu">
-            <h3>Crafted With Love, Baked to Perfection</h3>
-            <div class="row">
-                <article class="card_text">
-                    <img src="" alt="A picture of chocolate cake">
-                    <p>Cakes: From classic chocolate to exotic flavors, our cakes are perfect for every occasion.</p>
-                </article>
-                <article class="card_text">
-                    <img src="#" alt="A picture of red pastries">
-                    <p>Pastries: Enjoy our selection of buttery, flaky pastries made fresh daily.</p>
-                </article>
-                <article class="card_text">
-                    <img src="#" alt="A picture of artisanal bread">
-                    <p>Bread: Savor our artisanal bread, baked to perfection with wholesome ingredients.</p>
-                </article>
-                <article class="card_text">
-                    <img src="#" alt="A picture of tasty looking cookies">
-                    <p>Cookies: Treat yourself to our variety of cookies, crisp on the outside and soft inside.</p>
-                </article>      
-            </div>  
-        </section>
-        <section class="testi">
-            <p>“Sweet Treats Bakery is a gem! Their pastries and cakes are always fresh, delicious, and beautifully crafted. The custom cake for my daughter’s birthday was a showstopper and tasted amazing. I can’t recommend them enough!”</p>
+            <button id= "sign-up" class="hvr-wobble-vertical">Sign up for our News Letter!</button>
+        </div>
+        <img src="bakery_imgs/imgs/cards/welcome1.jpg" alt="A picture of a delicious pastry." class="hero-image" width="409" height="307">
+    </section>
+    <section class="cards" id="menu">
+        <h3>Crafted With Love, Baked to Perfection</h3>
+        <div class="row">
+            <article class="card_text hvr-bounce-in">
+                <img src="bakery_imgs/imgs/cards/cake_card.jpg" alt="A picture of chocolate cake" width="200" height="100">
+                <p>Cakes: From classic chocolate to exotic flavors, our cakes are perfect for every occasion.</p>
+            </article>
+            <article class="card_text hvr-bounce-in">
+                <img src="bakery_imgs/imgs/cards/pastery_card.jpg" alt="A picture of red pastries" width="200" height="100">
+                <p>Pastries: Enjoy our selection of buttery, flaky pastries made fresh daily.</p>
+            </article>
+            <article class="card_text hvr-bounce-in">
+                <img src="bakery_imgs/imgs/cards/bread_card.jpg" alt="A picture of artisanal bread" width="200" height="100">
+                <p>Bread: Savor our artisanal bread, baked to perfection with wholesome ingredients.</p>
+            </article>
+            <article class="card_text hvr-bounce-in">
+                <img src="bakery_imgs/imgs/cards/cookies_card.jpg" alt="A picture of tasty looking cookies" width="200" height="100">
+                <p>Cookies: Treat yourself to our variety of cookies, crisp on the outside and soft inside.</p>
+            </article>      
+        </div>  
+    </section>
+    <section class="testimonial">
+        <div class="review">
+            <p class="para">“Sweet Treats Bakery is a gem! Their pastries and cakes are always fresh, delicious, and beautifully crafted. The custom cake for my daughter’s birthday was a showstopper and tasted amazing. I can’t recommend them enough!”</p>
             <h4><em>- Emily Johnson</em></h4>
-        </section>
-        <section class="cta"></section>
-    </main>
+        </div>
+    </section>
+    <section class="cta"></section>
+</main>
 </body>
 </html>
-
-<!-- for card size 197px * 148px -->
